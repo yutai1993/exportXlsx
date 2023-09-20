@@ -10,13 +10,17 @@
     <div>
       预览表格：https://github.com/501351981/vue-office
     </div>
+    <xExcel :drawer.sync="drawer"></xExcel>
   </div>
 </template>
 
 <script>
-
+import xExcel from "../components/xExcel/xExcel";
 export default {
   name: 'Home',
+  components: {
+    xExcel
+  },
   data() {
     return {
       drawer: false,
