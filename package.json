@@ -1,0 +1,38 @@
+{
+  "name": "vue2-ceshi",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@vue-office/excel": "^1.4.5",
+    "@vue/composition-api": "^1.7.2",
+    "axios": "^1.5.0",
+    "core-js": "^3.6.5",
+    "element-ui": "^2.15.14",
+    "exceljs": "^4.3.0",
+    "file-saver": "^2.0.5",
+    "lodash": "^4.17.21",
+    "tinycolor2": "^1.6.0",
+    "vue": "^2.6.11",
+    "vue-demi": "^0.13.11",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0",
+    "x-data-spreadsheet": "^1.1.9",
+    "xlsx": "^0.18.5",
+    "xlsx-style": "^0.8.13"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.19",
+    "@vue/cli-plugin-router": "~4.5.19",
+    "@vue/cli-plugin-vuex": "~4.5.19",
+    "@vue/cli-service": "~4.5.19",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
